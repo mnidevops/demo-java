@@ -9,13 +9,18 @@
   <url>https://github.com/tongueroo/demo-java</url>
   
   <properties>
-<sonar.host.url>http://3.110.215.7:9000//</sonar.host.url>
-    <sonar.login>sqa_f06e028177bc863e9f59a44ecc2ac9fa419c5c87</sonar.login>
+<sonar.host.url>http://3.110.215.7:9000/</sonar.host.url>
+    <sonar.login>squ_750675624225f962269c584c31060333047f1414</sonar.login>
   </properties>
   <build>
     <finalName>demo</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
+      <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>4.0.0.4121</version>
+      </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
