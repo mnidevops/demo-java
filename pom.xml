@@ -57,12 +57,12 @@
   <distributionManagement>
             <repository>
               <id>nexus</id>
-              <url>http://13.235.135.98:8081/repository/maven-releases/</url>
+              <url>http://13.235.135.98:8081/repository/demo-java-release/</url>
             </repository>
             <snapshotRepository>
               <id>nexus</id>
               <name>Manoj Indalkar Snapshot Nexus Repository </name>
-              <url>http://13.235.135.98:8081/repository/maven-snapshots/</url>
+              <url>http://13.235.135.98:8081/repository/demo-java-snapshot/</url>
             </snapshotRepository>
   </distributionManagement>
   
