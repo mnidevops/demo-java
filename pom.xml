@@ -9,8 +9,8 @@
   <url>https://github.com/tongueroo/demo-java</url>
   
   <properties>
-<sonar.host.url>http://3.110.215.7:9000/</sonar.host.url>
-    <sonar.login>squ_750675624225f962269c584c31060333047f1414</sonar.login>
+<sonar.host.url>http://13.232.246.138:9000/</sonar.host.url>
+    <sonar.login>squ_eb5decf2b2059c6cdd49ea438bb71e383c0fde62</sonar.login>
   </properties>
   <build>
     <finalName>demo</finalName>
