@@ -21,7 +21,14 @@ pipeline
 		{
 			steps
 			{
-				echo "This is unit testing stage"
+				echo "This is a unit testing stage"
+			}
+		}
+		stage ('Deployment stage')
+		{
+			steps
+			{
+				echo "This is Deployment stage"
 			}
 		}
 	}
