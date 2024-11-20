@@ -2,7 +2,12 @@
 
 # Demo Java Web App
 
+ufo
+
+# Test branch restriction process on master branch.
+=======
 [![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+master
 
 Simple java project demos how to build a war file to be deployed on a Tomcat server.
 
