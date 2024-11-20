@@ -4,18 +4,23 @@
   <groupId>com.domain</groupId>
   <artifactId>demo</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>3.1-RELEASE</version>
   <name>Demo Maven Webapp</name>
   <url>https://github.com/tongueroo/demo-java</url>
   
   <properties>
-<sonar.host.url>http://3.109.54.109:9000/</sonar.host.url>
-                <sonar.login>7087500a94f0024dc1365ed5a7d074ef80740b4e</sonar.login>
+<sonar.host.url>http://13.232.246.138:9000/</sonar.host.url>
+    <sonar.login>squ_eb5decf2b2059c6cdd49ea438bb71e383c0fde62</sonar.login>
   </properties>
   <build>
     <finalName>demo</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
+      <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>4.0.0.4121</version>
+      </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
@@ -26,7 +31,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.0.0</version>
+        <version>3.4.0</version>
       </plugin>
     </plugins>
   </build>
@@ -52,12 +57,12 @@
   <distributionManagement>
             <repository>
               <id>nexus</id>
-              <url>http://13.235.86.126:8081/repository/another-webapp-release/</url>
+              <url>http://13.235.135.98:8081/repository/demo-java-release/</url>
             </repository>
             <snapshotRepository>
               <id>nexus</id>
               <name>Manoj Indalkar Snapshot Nexus Repository </name>
-              <url>http://13.235.86.126:8081/repository/another-webapp-snapshot/</url>
+              <url>http://13.235.135.98:8081/repository/demo-java-snapshot/</url>
             </snapshotRepository>
   </distributionManagement>
   

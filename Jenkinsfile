@@ -17,6 +17,7 @@ pipeline
 				sh 'echo $BRANCH_NAME'
 			}
 		}
+
 		stage ('Unit Testing stage')
 		{
 			steps
@@ -31,5 +32,6 @@ pipeline
 				echo "This is Deployment stage"
 			}
 		}
+		}	
 	}
 }
