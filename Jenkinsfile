@@ -31,7 +31,6 @@ pipeline
 			{
 				echo "This is Deployment stage"
 			}
-		}
 		}	
 	}
 }
