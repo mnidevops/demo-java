@@ -17,5 +17,12 @@ pipeline
 				sh 'echo $BRANCH_NAME'
 			}
 		}
+		stage ('Unit Testing stage')
+		{
+			steps
+			{
+				echo "This is unit testing stage"
+			}
+		}
 	}
 }
